@@ -1,6 +1,8 @@
 package com.example.chadbaily.hack;
 
+import android.annotation.TargetApi;
 import android.os.AsyncTask;
+import android.os.PatternMatcher;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,12 +19,16 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
     private EditText respText;
     private static final String TAG = "MAIN";
     private String html = "http://www.dineoncampus.com/stetson/";
+    private Pattern myPattern;
+    private Matcher myMatch;
     //chad
 
     @Override
@@ -57,28 +63,19 @@ public class MainActivity extends AppCompatActivity {
 //                Log.d("JSwA", "Title [" + title + "]");
 //                buffer.append("Title: " + title + "\n");
 
-// Get meta info
+// Get hour info
                 Elements divHomeContent = doc.body().select("div#container").select("div#home-menus-content");
-                // .select("div#home-content").select("div#whatsopen_container");
-                Log.d(TAG, "printing table");
+                Log.d(TAG, "The Hours");
                 Log.d(TAG, divHomeContent.text());
+                String test = divHomeContent.text().toString();
                 buffer.append(divHomeContent.text());
-                //                for (Element metaElem : divTable.select("table#whatsopen")) {
-//                    Log.d("Main", metaElem);
-//                }
-//
-//                Elements topicList = doc.select("h2.topic");
-//                buffer.append("Topic listrn");
-//                for (Element topic : topicList) {
-//                    String data = topic.text();
-//
-//                    buffer.append("Data [" + data + "] rn");
-//                }
 
+                myPattern = Pattern.compile(".*? Menu for (?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day, (\\w+) (\\w+) Hours: (.*)");
+                myMatch = myPattern.matcher(test);
+                Log.d(TAG, myMatch.group());
             } catch (Throwable t) {
                 t.printStackTrace();
             }
-
             return buffer.toString();
         }
 
