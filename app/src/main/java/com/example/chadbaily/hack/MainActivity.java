@@ -68,13 +68,14 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "The Hours");
                 Log.d(TAG, divHomeContent.text());
                 String test = divHomeContent.text().toString();
-                buffer.append(divHomeContent.text());
+//                buffer.append(divHomeContent.text());
 
                 myPattern = Pattern.compile(".*? Menu for (?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day, (\\w+) (\\w+) Hours: (.*)");
                 myMatch = myPattern.matcher(test);
                 if (myMatch.find())
                 {
                     Log.d(TAG,myMatch.group(3));
+                    buffer.append(myMatch.group(3));
                 }
 
             } catch (Throwable t) {

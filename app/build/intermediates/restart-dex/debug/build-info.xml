@@ -1,32 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="x86_64,x86"
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="213606759355299" >
+    timestamp="18027749234122"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="3726" />
+        duration="82" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="210" />
     <task
         name="instant-run-transform"
-        duration="1446" />
+        duration="14" />
     <task
         name="verifier"
-        duration="41" />
+        duration="1" />
 
     <artifact
-        location="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="213606759355299" >
+    <build timestamp="17969819820109" >
         <artifact
-            location="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/outputs/apk/app-debug.apk"
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="18015780878608"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\builds\debug\18015780878608\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="18027749234122"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
