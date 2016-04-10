@@ -32,11 +32,11 @@
         "source": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
         "merged": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_popup_exit.xml"
     }
 ]
