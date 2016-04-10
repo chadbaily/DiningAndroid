@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText respText;
     private static final String TAG = "MAIN";
     private String html = "http://www.dineoncampus.com/stetson/";
+    //chad
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
