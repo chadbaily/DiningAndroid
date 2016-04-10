@@ -1,26 +1,19 @@
 package com.example.chadbaily.hack;
 
-import android.annotation.TargetApi;
 import android.os.AsyncTask;
-import android.os.PatternMatcher;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.w3c.dom.Document;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -68,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "The Hours");
                 Log.d(TAG, divHomeContent.text());
                 String test = divHomeContent.text().toString();
-//                buffer.append(divHomeContent.text());
+//
+
 
                 myPattern = Pattern.compile(".*? Menu for (?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day, (\\w+) (\\w+) Hours: (.*)");
                 myMatch = myPattern.matcher(test);
