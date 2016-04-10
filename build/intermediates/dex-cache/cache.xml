@@ -1,3 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="/Users/chadbaily/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_b46fba36da1d314e3684c9dc82e6fcd98326d000/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="bcc169aeeceae2fd02198779e9a76a3ebcb9df67">
+        <dex dex="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_641a1142dfc272c7b11eee0cbce3aa12016b83ef/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_d286f5d2dc9ffcf6e5b711da425951689f61248a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_bd0b57393e114ee7e0f2da6b306d65f83f968197/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_22655f23b95a4fe4f2ac5dd6894fa8a3c3288ef7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0a5a10a654a71d1d977bc5c7628332e18fd3bf1f">
+        <dex dex="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_afa4cc5d39df82db6f8b2c4690cf36dde7b3f365/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chadbaily/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.3/92568d7167ce1bf9eb1fd815b022d5a2c113547a/jsoup-1.7.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="92568d7167ce1bf9eb1fd815b022d5a2c113547a">
+        <dex dex="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsoup-1.7.3_b7e6c69f095836ef72048bcefef2ba8e2bbd7084/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_a8c118e19a94f1e93fce3d91803e2827b4b1ef1e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_d6acc01da2f79e8d70522213e456b8c13ebc9d41/classes.dex" />
+    </item>
+
+</items>

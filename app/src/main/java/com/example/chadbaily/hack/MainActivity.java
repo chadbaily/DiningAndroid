@@ -72,7 +72,11 @@ public class MainActivity extends AppCompatActivity {
 
                 myPattern = Pattern.compile(".*? Menu for (?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day, (\\w+) (\\w+) Hours: (.*)");
                 myMatch = myPattern.matcher(test);
-                Log.d(TAG, myMatch.group());
+                if (myMatch.find())
+                {
+                    Log.d(TAG,myMatch.group(3));
+                }
+
             } catch (Throwable t) {
                 t.printStackTrace();
             }

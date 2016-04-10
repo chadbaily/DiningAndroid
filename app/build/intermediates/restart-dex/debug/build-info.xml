@@ -1,58 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="x86"
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="15687650388110" >
+    timestamp="213606759355299" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="3726" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1446" />
     <task
         name="verifier"
-        duration="0" />
+        duration="41" />
 
     <artifact
-        location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
+        location="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="13323199693502" >
+    <build timestamp="213606759355299" >
         <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\outputs\apk\app-debug.apk"
+            location="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="15281469372051"
-        verifier="METHOD_ADDED" >
-        <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="15297495938674"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\builds\debug\15297495938674\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="15529184687240"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\builds\debug\15529184687240\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="15687650388110" >
-        <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>
