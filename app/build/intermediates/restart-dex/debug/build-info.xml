@@ -1,32 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64"
+    abi="x86_64,x86"
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="496796145080" >
+    timestamp="1951184091434"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="972" />
+        duration="187" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="313" />
     <task
         name="instant-run-transform"
-        duration="293" />
+        duration="31" />
     <task
         name="verifier"
-        duration="75" />
+        duration="2" />
 
     <artifact
-        location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build timestamp="496796145080" >
         <artifact
             location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="1211929764743"
+        verifier="METHOD_DELETED" >
+        <artifact
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1325409465852"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\builds\debug\1325409465852\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1797234311009"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\builds\debug\1797234311009\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1890897440586"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\builds\debug\1890897440586\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1925230938832"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\builds\debug\1925230938832\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1951184091434"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

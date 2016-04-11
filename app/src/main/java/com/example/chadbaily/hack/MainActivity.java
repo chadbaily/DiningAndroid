@@ -64,14 +64,19 @@ public class MainActivity extends AppCompatActivity {
 //
 
 
-                myPattern = Pattern.compile(".*? Menu for (?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day, (\\w+) (\\w+) Hours: (.*)");
-                myMatch = myPattern.matcher(test);
-                if (myMatch.find())
-                {
-                    Log.d(TAG,myMatch.group(3));
-                    buffer.append(myMatch.group(3));
-                }
+//                myPattern = Pattern.compile(".*? Menu for (?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day, (\\w+) (\\w+) Hours: (.*)");
 
+                myPattern = Pattern.compile("(?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day- (\\d+)(\\w+)-(\\d+)(\\w+)");
+                myMatch = myPattern.matcher(test);
+                for (int i = 0; i < 8; i++) {
+                    if (myMatch.find()) {
+                        Log.d(TAG, myMatch.group(0));
+                        if (i == 7) {
+                            buffer.append(myMatch.group(0));
+                        } else
+                            buffer.append(myMatch.group(0) + "\n");
+                    }
+                }
             } catch (Throwable t) {
                 t.printStackTrace();
             }
