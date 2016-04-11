@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
+import android.widget.TextView;
 
 import org.jsoup.Jsoup;
 import org.jsoup.select.Elements;
@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText respText;
+    private TextView respText;
     private static final String TAG = "MAIN";
     private String html = "http://www.dineoncampus.com/stetson/";
     private Pattern myPattern;
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        final EditText edtUrl = (EditText) findViewById(R.id.edtURL);
         Button btnGo = (Button) findViewById(R.id.btnGo);
-        respText = (EditText) findViewById(R.id.edtResp);
+        respText = (TextView) findViewById(R.id.edtResp);
         btnGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,20 +61,18 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "The Hours");
                 Log.d(TAG, divHomeContent.text());
                 String test = divHomeContent.text().toString();
-//
-
-
-//                myPattern = Pattern.compile(".*? Menu for (?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day, (\\w+) (\\w+) Hours: (.*)");
-
+                /*
+                Formatting the code that is pulled to make it a little more legible. Maybe it can be made into a table?
+                 */
                 myPattern = Pattern.compile("(?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day- (\\d+)(\\w+)-(\\d+)(\\w+)");
                 myMatch = myPattern.matcher(test);
-                for (int i = 0; i < 8; i++) {
+                for (int i = 0; i < 7; i++) {
                     if (myMatch.find()) {
                         Log.d(TAG, myMatch.group(0));
-                        if (i == 7) {
+                        if (i ==6) {
                             buffer.append(myMatch.group(0));
                         } else
-                            buffer.append(myMatch.group(0) + "\n");
+                            buffer.append(myMatch.group(0)+ "\n");
                     }
                 }
             } catch (Throwable t) {

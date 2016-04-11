@@ -1611,7 +1611,8 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020048;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020049;
         public static final int abc_textfield_search_material=0x7f02004a;
-        public static final int notification_template_icon_bg=0x7f02004b;
+        public static final int logo=0x7f02004b;
+        public static final int notification_template_icon_bg=0x7f02004c;
     }
     public static final class id {
         public static final int action0=0x7f0c0053;
@@ -1656,6 +1657,7 @@ containing a value of this type.
         public static final int icon=0x7f0c0029;
         public static final int ifRoom=0x7f0c001e;
         public static final int image=0x7f0c0026;
+        public static final int imageView=0x7f0c0050;
         public static final int info=0x7f0c005e;
         public static final int line1=0x7f0c0058;
         public static final int line3=0x7f0c005c;
@@ -1707,7 +1709,6 @@ containing a value of this type.
         public static final int topPanel=0x7f0c002e;
         public static final int up=0x7f0c0008;
         public static final int useLogo=0x7f0c0012;
-        public static final int websiteText=0x7f0c0050;
         public static final int withText=0x7f0c0020;
         public static final int wrap_content=0x7f0c0013;
     }
