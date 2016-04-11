@@ -1,37 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="x86_64"
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="26507355965070" >
+    timestamp="496796145080" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="972" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="293" />
     <task
         name="verifier"
-        duration="0" />
+        duration="75" />
 
     <artifact
-        location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
+        location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="26215664331461" >
+    <build timestamp="496796145080" >
         <artifact
             location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="26507355965070" >
-        <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>
