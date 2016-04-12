@@ -1,49 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="x86"
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="3615523189788" >
+    timestamp="20952804022040"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="364" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="679" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="46" />
     <task
         name="verifier"
-        duration="0" />
+        duration="14" />
 
     <artifact
-        location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
+        location="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="496796145080" >
+    <build timestamp="20805943965639" >
         <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\outputs\apk\app-debug.apk"
+            location="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="3181388986737"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="20952804022040"
+        verifier="COMPATIBLE" >
         <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="3353988619560" >
-        <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="3615523189788" >
-        <artifact
-            location="C:\Users\Chad Baily\Google Drive\Personal\Android\hack\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
+            location="/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

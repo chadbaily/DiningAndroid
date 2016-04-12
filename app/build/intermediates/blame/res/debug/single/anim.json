@@ -12,18 +12,6 @@
         "source": "/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-<<<<<<< Updated upstream
-        "merged": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Chad Baily\\Google Drive\\Personal\\Android\\hack\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-=======
         "merged": "/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
         "source": "/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_popup_enter.xml"
     },
@@ -34,7 +22,6 @@
     {
         "merged": "/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
         "source": "/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_popup_exit.xml"
->>>>>>> Stashed changes
     },
     {
         "merged": "/Users/chadbaily/Google Drive/Personal/Android/hack/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
