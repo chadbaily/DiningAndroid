@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                  */
                 myPattern = Pattern.compile("(?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day- (\\d+)(\\w+)-(\\d+)(\\w+)");
                 myMatch = myPattern.matcher(test);
+<<<<<<< Updated upstream
                 for (int i = 0; i < 7; i++) {
                     if (myMatch.find()) {
                         Log.d(TAG, myMatch.group(0));
@@ -74,6 +75,11 @@ public class MainActivity extends AppCompatActivity {
                         } else
                             buffer.append(myMatch.group(0)+ "\n");
                     }
+=======
+                if (myMatch.find()) {
+                    Log.d(TAG, myMatch.group(3));
+                    buffer.append(myMatch.group(3));
+>>>>>>> Stashed changes
                 }
             } catch (Throwable t) {
                 t.printStackTrace();
